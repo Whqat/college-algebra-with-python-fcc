@@ -107,9 +107,3 @@ z = y - x   # z = 6.66666 - 0.666666 = 6
 #  1.29 CAD          1.00 CAD
 
 # You can also use this to calculate any exchange rate, whether it be mile to km or currencies or whatever.
-
-
-
-
-
-

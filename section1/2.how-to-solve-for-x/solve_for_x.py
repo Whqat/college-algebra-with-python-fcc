@@ -94,14 +94,62 @@
 
 import sympy
 
-# You have to declare the variable 'x' as a sympy symbol in order for sympy to understand
+# Declare the variable 'x' as a sympy symbol in order for sympy to understand
 x = sympy.symbols("x")
 
-# Equation  (The other side of the equation is equal to zero by default)
-eq = 2*x - 4    #NOTE: We used 2*x instead of 2x because python can't understand 2x
+# Equation (The other side of the equation is equal to zero by default, we'll learn how to change it later)
+equation = 2*x - 4    #NOTE: We used 2*x instead of 2x because python can't understand 2x
 
-print("x = ", sympy.solvers.solve(eq, x))   # Should be equal to 2
+# Use the solvers.solve() function & pass in the equation and the symbol/unknown variable to be solved
+print("x = ", sympy.solvers.solve(equation, x))   # Should be equal to 2
 
-# If you want to learn more about sympy and how to use it, you can read the docs at (https://docs.sympy.org/)
+# If you want to learn more about how sympy works, you can read the docs at (https://docs.sympy.org/)
+
+# What if we want to use sympy to solve an equation that is not equal to the default
+# value of zero, for example:   3x - 8 = 4
+# Thankfully, sympy has a way for us to do that using the Eq() method:
+
+# Declare the unknown variable
+x = sympy.symbols("x")
+
+# Pass in the equation seperated by a comma instead of an equal sign
+equation = sympy.Eq(3*x-8, 4)
+
+# Let's store the solution in a variable so the print statement looks cleaner
+solution = sympy.solvers.solve(equation, x)
+
+# Print the solution, I chose to use f-strings because it's easier to read
+print(f"x = {solution}")   # returns 4
 
 
+
+# If we want to solve an equation that's equal to an unknown variable, say a and b, we
+# can use the sympy.var() function to declare 2 different variables: (we can also use it to declare one unknown variable like the symbols function)
+
+sympy.var('a b')
+
+# Equation equivalent to 3a - b = 0 (Your IDE may show a yellow line under a & b, that's okay)
+eq = sympy.Eq(3*a - b, 0)
+
+# First parameter is the equation, second is the variable to be solved
+solution_for_a = sympy.solvers.solve(eq, a)   
+solution_for_b = sympy.solvers.solve(eq, b)   
+
+print(f"A = {solution_for_a}") # A = b/3
+print(f"B = {solution_for_b}") # B = 3*a
+
+
+# Sympy can also factor equations. If you don't know, the process of factorization is
+# simply put taking an equation and making it more "readable" by grouping similiar elements
+
+# Let's say we want to factorize the equation: 2c + 10d + 4 = 0 (equations are equal to zero by default, so we won't have to specify that)
+
+# Set our variables
+sympy.var("c d")
+
+# Define our equation
+equation = 2*c + 10*d + 4
+
+factorized_equation = sympy.factor(equation)
+
+print(factorized_equation)  # 2(c + 5d + 2)
