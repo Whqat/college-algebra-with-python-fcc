@@ -1,12 +1,12 @@
 '''
  In this lesson, we'll look at converting decimals to fractions and
  fractions to decimals. I'm going to assume you have basic knowledge
- about decimals and know what is a tenth, a hundredth, and a thousandth
+ about decimals and know what a tenth, a hundredth, and a thousandth are.
 
  If we have the decimal 0.234 for example. Since we know that the last
  digit of the decimal is a thousandth, then we know that in order to
  conver this decimal to an integer, we'd have to multiply it by a thousand,
- and if we want to conver it back we'd divide it by a thousand, which is
+ and if we want to convert it back we'd divide it by a thousand, which is
  234/1000 which is:
 
    234
