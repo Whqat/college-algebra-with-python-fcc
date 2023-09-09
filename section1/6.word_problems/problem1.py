@@ -1,10 +1,13 @@
 '''
- Now we'll use python to solve algebraic word-problems
- related to what we've learned
+ In this chapter, we'll use python to solve mathematical
+ word-problems related to what we've learned
 
  I highly encourage trying to solve the problems on your own before
  seeing the solution as it'll really help you understand why things
  were a certain way and it'll also challenge your knowledge thusfar.
+
+ We're going to use pretty much all we've learned till now. I highly recommend
+ going back to chapter 5 and really making sure you grasp the concept
 '''
 
 
@@ -68,7 +71,7 @@
 
 import matplotlib.pyplot as plt
 import numpy as np
-import sympy
+import sympy # OPTIONAL
 
 # I'm going to start counting the years this way for readability:
 # 0 for 2010, 2 for 2012, 4 for 2014, 6 for 2016 (These are our x values)
@@ -111,11 +114,15 @@ ax.set_yticks(np.arange(ymin,ymax,10))  # 10 steps for y-axis (because max is 13
 
 plt.plot([xmin,xmax], [y3,y4], 'orange')
 
-# Before we show it, we can actually draw a dot on the graph right
+# You can plt.show() now, the following is optional:
+
+# We can actually draw a dot on the graph right
 # where the population at 2016 is using the equation we got.
 
 # We're going to use sympy to get the value of y (population) at
 # point 6 in the x-axis (2016):
+
+#NOTE: Please take a look at the 2nd chapter if you don't know how sympy works
 
 y = sympy.symbols("y")
 
