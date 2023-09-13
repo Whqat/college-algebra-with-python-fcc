@@ -53,7 +53,15 @@
  x is the x-coordinate of a point on the line
  m is the slope of the line
  b is the y-intercept, which is the point where the line crosses the y-axis
- 
+
+ Or, in other words.
+
+ y ⇒  how far up or down is the line, 
+ x ⇒  how far along is the line,   
+ b ⇒  the value of y when x = 0
+ m ⇒  how steep the line is.
+
+
  The y=mx+b formula can be used to get the value of any of the above
 
  Example: getting just the equation
@@ -88,6 +96,17 @@
  -> 1 = 3 + b
 
  -> -2 = b   AKA   b = -2
+
+
+ y = mx + b is the slope intercept form of writing the equation of a straight
+ line. In the equation 'y = mx + b', 'b' is the point, where the line intersects
+ the 'y axis' and 'm' denotes the slope of the line. The slope or gradient
+ of a line describes how steep a line is. It can have either a positive or
+ a negative value. When a standard form of a linear equation is of the
+ form Ax + By  = C, where 'x' and 'y'  and 'C' are variables and 'A', 'B'
+ are constants, the slope-intercept form is the most preferred way
+ of expressing a straight line due to its simplicity, as it is very
+ easy to find the slope and the 'y intercept' from the given equation.
 
 
  Here's a practical real-world example:
@@ -127,7 +146,7 @@
  
 
  So, if you want to predict the number of people who
- will have the flu in year 5 (x=5), you can use the slope
+ will have the flu in year 5 (x=5), you can use the slope-intercept formula
  to calculate the value of y (cases) when x is equal to 5 (year).
 
  For example, if Y is 6, then you would calculate:
@@ -143,6 +162,52 @@
  people who have the flu may not always follow this trend.
  However, the slope-intercept form can be a useful tool
  for making informed predictions about future outcomes.
+
+ 
+ Real World Problem:
+
+ "A gym membership with two personal training sessions costs $125, while
+ the same gym membership with six personal training sessions costs $260.
+ 
+ What is cost per session?"
+
+ First we have to understand the meaning of y = mx + b in the context of this problem.
+
+*y is the dependent variable, which means that it depends on the independent
+ variable, x. In this case, y is the total cost of the membership,
+ and x is the number of personal training sessions.
+*m is the slope of the line, which tells us how much y changes when x changes
+ by one unit. In this case, the slope is ~35, which means that the total cost of
+ the membership increases by $35 for each additional personal training session.
+*b is the y-intercept, which tells us the value of y when x is zero. In this case,
+ the y-intercept is ~50, which means that the cost of the membership is $50 even if
+ there are no personal training sessions. In other words, it basically means our line
+ starts at $50, so the starting cost is $50 which in our case is the membership.
+
+ To extract the meaning of y = mx + b in other problems, you can follow these steps:
+
+ 1.Identify the dependent and independent variables. The dependent variable is the
+   variable that you are trying to predict, and the independent variable is the
+   variable that you are using to make the prediction.
+ 2.Understand the meaning of each term in the equation. The slope tells you how much
+   the dependent variable (y) changes when the independent variable (x) changes by one 
+   unit. The y-intercept tells you the value of the dependent variable when the
+   independent variable is zero.
+ 3.Substitute real-world values into the equation to see how it works. This can help
+   you to understand how the equation relates to the real-world problem that you are
+   trying to solve.
+
+ Here are some additional tips for extracting the meaning of y = mx + b in other problems:
+
+ Look for clues in the problem statement. The problem statement may explicitly state
+ the meaning of each term in the equation.
+
+ Consider the units of each term. The units of y and x should be the same. The units
+ of b will depend on the units of y and x.
+
+ Think about the real-world context of the problem. What does it mean for the dependent
+ variable to increase by one unit? What does it mean for the independent variable
+ to be zero?
 
  Here are some other things to keep in mind when using the
  slope-intercept form to predict certain outcomes:

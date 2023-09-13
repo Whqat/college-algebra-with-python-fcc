@@ -1,0 +1,57 @@
+This file contains common keywords in word problems and their meaning.
+
+We'll look at the key-words that indicate each mathematical operation.
+
+
+ADD:
+
+plus
+more
+increased
+and
+receieved
+up
+added to
+sum
+
+
+SUBTRACT:
+
+minus
+difference
+less
+decrease
+gave
+down
+subtracted
+
+
+MULTIPLY:
+
+by
+of
+factor
+times
+area
+each (goes for both multiplication and division)
+
+
+DIVIDE:
+
+out of
+per
+quotient
+rate
+divided
+each (goes for both multiplication and division)
+
+
+
+'is', 'are', 'was', 'were', 'will be', etc.  ---->  '='
+
+
+
+TIP:
+
+If you get the feeling the result is going to be a smaller number,
+you're more probable to use subtraction or division. (and vice-versa)
