@@ -37,7 +37,9 @@
 
  -> 4x - y = 0              (Brought the isolated "y" in and flipped it's sign)
 
-
+ NOTE:
+    2 systems of equations are parallel when their slopes are equal & y-intercepts are different
+    2 systems of equations are perpendicular when the product of their slopes is -1
 
  Let's transfer over to python.
 
