@@ -1,0 +1,23 @@
+
+For this challenge, you need to create three math games using Python.
+
+
+Scatter plot game:
+Randomly generate points on a graph and the player has to input the (x,y) coordinates.
+For added difficulty, make the graph larger.
+
+
+Algebra practice game:
+Generate one-step and two-step problems with random integer values and the player
+has to input the answer. Use positive and negative values.
+For added difficulty, make the numbers larger.
+
+
+Projectile game:
+Display a "wall" with random height and location. Players enter a, b, and c values
+for the equation ax^2 + bx + c which attempts to create a parabola that curves over
+the wall (throwing a projectile over a wall).
+
+
+Here's my project:
+https://colab.research.google.com/drive/1yhEoVObluORY7dYC4n_SQdSwgkklTkeP#scrollTo=8nDzmJUHJT3o
